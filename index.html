@@ -14,16 +14,15 @@
       rel="stylesheet"
     />
     <style>
-         html, body {
-    height: 100%;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-  }
+        body {
+            font-family: 'Roboto', sans-serif; /* Aplica Roboto a todo el cuerpo */
+            padding: 20px;
+        }
 
-  #n8n-chat {
-    width: 100%;
-    height: 100vh;
-  }
+      #n8n-chat {
+        width: 100%;
+        height: 100%;
+      }
       :root {
         --chat--color--primary: #e74266;
         --chat--color--primary-shade-50: #db4061;
@@ -96,7 +95,7 @@
           headers: {},
         },
         target: "#n8n-chat",
-        mode: "popup",
+        mode: "fullscreen",
         chatInputKey: "chatInput",
         chatSessionKey: "sessionId",
         loadPreviousSession: true,
